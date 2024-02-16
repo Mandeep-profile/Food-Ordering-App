@@ -1,0 +1,24 @@
+.Nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  .Nav-logo {
+    img {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+    }
+  }
+  .Nav-items {
+    display: flex;
+    ul{
+        display: flex;
+    li{
+        font-size: 18px;
+        margin-right: 50px;
+        list-style: none;
+        cursor: pointer;
+    }
+    }
+  }
+}
