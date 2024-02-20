@@ -1,5 +1,6 @@
 export const data = [
     {
+      id: 1,
       RestaurantName: "Warehouse Cafe",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/5/301605/8817b3ab8e99f45a855e8ce57743fdd0_featured_v2.jpg?output-format=webp",
       RestaurantRating: 4.2,
@@ -8,6 +9,7 @@ export const data = [
       RestaurantPlace: "Connaught Place, New Delhi"
     },
     {
+      id: 2,
       RestaurantName: "Moti Mahal Delux- Legendary Culinary",
       RestaurantImg: "https://b.zmtcdn.com/data/reviews_photos/c71/3fa4496b310204c28289ed2944e25c71_1584016645.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.2,
@@ -16,6 +18,7 @@ export const data = [
       RestaurantPlace: "South Extension 2 Market, New Delhi"
     },
     {
+      id: 3,
       RestaurantName: "The Barbeque Times",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/6/20293756/b89a070343ddeaaacba6c07b40f95b62_featured_v2.jpg",
       RestaurantRating: 4.2,
@@ -24,6 +27,7 @@ export const data = [
       RestaurantPlace: "Sector 50, Gurgaon"
     },
     {
+      id: 4,
       RestaurantName: "Mayfair",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/1/20787391/95413740ad043474e6fa7ecfbc4ce149.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.1,
@@ -32,6 +36,7 @@ export const data = [
       RestaurantPlace: "Sector 13, Dwarka, New Delhi"
     },
     {
+      id: 5,
       RestaurantName: "Farzi Cafe",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/3/18233593/02e7741975704696355875b86179d4ac_featured_v2.jpg",
       RestaurantRating: 4.4,
@@ -40,6 +45,7 @@ export const data = [
       RestaurantPlace: "Connaught Place, New Delhi"
     },
     {
+      id: 6,
       RestaurantName: "Anardana",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/5/20504225/f9402eccf6ef308f4b5169c155e58a7d.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.5,
@@ -48,6 +54,7 @@ export const data = [
       RestaurantPlace: "M3M International Financial Center, Gurgaon"
     },
     {
+      id: 7,
       RestaurantName: "Maruchi",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/9/20284969/7960c272c375100588ae76d41631b648.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.5,
@@ -56,6 +63,7 @@ export const data = [
       RestaurantPlace: "Lado Sarai, New Delhi"
     },
     {
+      id: 8,
       RestaurantName: "Ivoryy",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/5/20504225/f9402eccf6ef308f4b5169c155e58a7d.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.2,
@@ -64,6 +72,7 @@ export const data = [
       RestaurantPlace: "Malviya Nagar, New Delhi"
     },
     {
+      id: 9,
       RestaurantName: "Romeo Lane",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/3/20698823/25d771fe63772f6c035336eabd99e2b3.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.3,
@@ -72,6 +81,7 @@ export const data = [
       RestaurantPlace: "Sector 56, Gurgaon"
     },
     {
+      id: 10,
       RestaurantName: "Cafe De Flora",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/4/20496594/4184cf6322520c6e01583ab5d8f39c80.jpeg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 3.8,
@@ -80,6 +90,7 @@ export const data = [
       RestaurantPlace: "Chanakyapuri, New Delhi"
     },
     {
+      id: 11,
       RestaurantName: "Comorin",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/0/18896450/670301766198071c1c22ee84bd0a9697.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.8,
@@ -88,6 +99,7 @@ export const data = [
       RestaurantPlace: "DLF Horizon Center, Gurgaon"
     },
     {
+      id: 12,
       RestaurantName: "American Brew - All day American Breakfast & Cafe",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/3/20562003/2e21fad14d19c0bd7e87f850d0c10a2f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.7,
@@ -96,6 +108,7 @@ export const data = [
       RestaurantPlace: "Defence Colony, New Delhi"
     },
     {
+      id: 13,
       RestaurantName: "RYU Rooftop Bar",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/5/19320335/9b841dde1d001e0113270f327ba0a2c4.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.3,
@@ -104,6 +117,7 @@ export const data = [
       RestaurantPlace: "32nd Avenue, Milestone, Gurgaon"
     },
     {
+      id: 14,
       RestaurantName: "Roesia",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/3/20522803/85dc6144ea1befddbae8ce564a1feb02.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.7,
@@ -112,6 +126,7 @@ export const data = [
       RestaurantPlace: "AIPL Joy Street, Gurgaon"
     },
     {
+      id: 15,
       RestaurantName: "Pincode By Kunal Kapur",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/3/20640433/bf5efd10851957089b01fe9b2a521d8b.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.2,
@@ -120,6 +135,7 @@ export const data = [
       RestaurantPlace: "Civil Lines, New Delhi"
     },
     {
+      id: 16,
       RestaurantName: "Havemore",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/1/19662641/bd6f0954cdf05df37ac9dc59cfecc542_featured_v2.jpg",
       RestaurantRating: 4.6,
@@ -128,6 +144,7 @@ export const data = [
       RestaurantPlace: "MGF Metropolitan Mall, Saket, New Delhi"
     },
     {
+      id: 17,
       RestaurantName: "Kiyan - The Roseate",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/9/305839/f8723badb1a5b3b2e9384b371a51309d.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.6,
@@ -136,6 +153,7 @@ export const data = [
       RestaurantPlace: "The Roseate, Kapashera, New Delhi"
     },
     {
+      id: 18,
       RestaurantName: "7 Barrel Brew Pub",
       RestaurantImg: "https://b.zmtcdn.com/data/pictures/7/310737/985d2b54cfadd22b306bf9c2cf7fa992.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       RestaurantRating: 4.2,

@@ -1,0 +1,21 @@
+.modal {
+    padding: 1rem;
+  .modal-content {
+    .close {
+      font-size: 16px;
+      font-weight: 700;
+      float: right;
+      background-color: #fff;
+      padding: 0.5rem 1rem;
+      border: 1px solid #f2f2f2;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  .restro-heading{
+        font-size: 20px;
+        text-align: center;
+        margin: 50px auto;
+  }
+}
