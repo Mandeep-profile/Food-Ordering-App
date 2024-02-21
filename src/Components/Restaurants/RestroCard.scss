@@ -1,12 +1,12 @@
-.res-card-main{
+.res-card-main {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
-.res-card-div {
+  .res-card-div {
     width: 360px;
     height: 400px;
-    
+
     .res-card {
       display: flex;
       justify-content: center;
@@ -14,19 +14,19 @@
       flex-direction: column;
       padding: 2px;
 
-      &:hover{
-        border: 2.5px solid #D6D6D6;
+      &:hover {
+        border: 2.5px solid #d6d6d6;
         border-radius: 15px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
         cursor: pointer;
       }
-  
+
       .res-img {
         width: 350px;
         height: 250px;
         border-radius: 15px;
       }
-  
+
       .top-div {
         width: 96%;
         height: 55px;
@@ -36,15 +36,14 @@
         justify-content: space-between;
         align-items: center;
         color: #424242;
-        
-  
+
         .rating-div {
           display: flex;
-  
+
           .res-name {
             font-size: 15px;
           }
-  
+
           p {
             display: flex;
             justify-content: center;
@@ -56,27 +55,27 @@
             padding: 2px 6px;
             border-radius: 5px;
           }
-  
+
           .res-star {
             font-size: 18px;
             font-weight: 700;
           }
         }
       }
-  
+
       .center-div {
         width: 96%;
         height: 45px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-  
+
         .cousine-name {
           font-size: 14px;
           font-weight: 400;
           color: #616161;
         }
-  
+
         .price-div > p {
           font-size: 14px;
           width: 80px;
@@ -84,26 +83,27 @@
           color: #616161;
         }
       }
-      .place-div{
+      .place-div {
         width: 98%;
-        p{
-            font-size: 14px;
-            margin-left: 5px;
-            color: #757575;
+        p {
+          font-size: 14px;
+          margin-left: 5px;
+          color: #757575;
         }
       }
     }
   }
 
-  .pagination-controls{
+  .pagination-controls {
     display: flex;
     justify-content: center;
   }
 }
 
-.Modal-showDiv{
+.Modal-showDiv {
   width: 500px;
-  height: 550px;
+  overflow-y: scroll;
+  max-height: 550px;
   position: fixed;
   z-index: 999999999;
   background-color: #f2f2f2;

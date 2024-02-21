@@ -6,7 +6,44 @@ export const data = [
       RestaurantRating: 4.2,
       RestaurantCousines: "North Indian, Italian, Asian, Kebab, Beverages",
       RestaurantPrice: "2400 for two",
-      RestaurantPlace: "Connaught Place, New Delhi"
+      RestaurantPlace: "Connaught Place, New Delhi",
+      Menu: [
+        { 
+          Menu_id: 1,
+          ItemName: "Taekwondo Spring Roll",
+          ItemImg: "https://b.zmtcdn.com/data/dish_photos/b8e/b2354e4ae66f8debe26e5b7954f72b8e.jpg?fit=around|130:130&crop=130:130;*,*",
+          Price: "₹465",
+          description: "Rolled with mushroom, baby corn, beans served with green curry sauce."
+        },
+        {
+          Menu_id: 2,
+          ItemName: "Green Falafel Tahini",
+          ItemImg: "https://tse3.mm.bing.net/th?id=OIP.OQn4q2Z6p8DqkAnuJ9iSQQHaLG&pid=Api&P=0&h=180",
+          Price: "₹425",
+          description: "Chick peas, mint, parsley and coriander patty served with hummus."
+        },
+        {
+          Menu_id: 3,
+          ItemName: "Smokey Mushroom Galouti",
+          ItemImg: "https://tse2.mm.bing.net/th?id=OIP.V1ka6Ygh8jbaf7oSzbCcbgHaFz&pid=Api&P=0&h=180",
+          Price: "₹455",
+          description: "Tempered with yellow chili served with mint sauce"
+        },
+        {
+          Menu_id: 4,
+          ItemName: "Thai Veg Curry",
+          ItemImg: "https://tse2.mm.bing.net/th?id=OIP.tECKi-Bsv9pfvRr4MkJ0RgHaGm&pid=Api&P=0&h=180",
+          Price: "₹425",
+          description: "Cooked in traditional thai red curry served with steamed rice."
+        },
+        {
+          Menu_id: 5,
+          ItemName: "Mushroom Cappuccino Soup",
+          ItemImg: "https://tse4.mm.bing.net/th?id=OIP.4QcLEor6CnNKi3M0MWnrkQAAAA&pid=Api&P=0&h=180",
+          Price: "₹275",
+          description: "Served with mushroom ketchup spared bread."
+        }
+      ]
     },
     {
       id: 2,
