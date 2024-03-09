@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 import { restaurants } from "../RestaurantCardData/RestaurantData";
 import Modal from "../Modal/Modal";
+import AddLocationAltTwoToneIcon from '@mui/icons-material/AddLocationAltTwoTone';
 import "./RestroCard.scss";
 
 const RestroCard = () => {
@@ -73,7 +74,7 @@ const RestroCard = () => {
                 </div>
               </div>
               <div className="place-div">
-                <p>{res.info.areaName}</p>
+                <p><AddLocationAltTwoToneIcon />{res.info.areaName}</p>
               </div>
             </div>
           </div>

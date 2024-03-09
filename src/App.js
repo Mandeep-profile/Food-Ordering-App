@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import RestroCard from "./Components/Restaurants/RestroCard";
+import {Outlet} from 'react-router-dom'
 
 const App = () => {
+  
   return (
     <div>
       <Navbar />
@@ -15,7 +16,7 @@ const App = () => {
           gap: "50px",
         }}
       >
-        <RestroCard />
+        <Outlet />
       </div>
     </div>
   );

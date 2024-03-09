@@ -14,10 +14,14 @@
     ul{
         display: flex;
     li{
+        color: black;
         font-size: 18px;
         margin-right: 50px;
         list-style: none;
         cursor: pointer;
+    }
+    .link{
+      text-decoration: none;
     }
     }
   }
