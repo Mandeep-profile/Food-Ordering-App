@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export const data = [
     {
       id: 1,
@@ -199,4 +201,8 @@ export const data = [
       RestaurantPlace: "Mega Mall, DLF Phase 1, Gurgaon"
     }
   ];
+
+  export const restaurants = () => {
+    return axios.get("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.65420&lng=77.23730&is-seo-homepage-enabled=true&page")
+  }
   
