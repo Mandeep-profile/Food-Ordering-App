@@ -11,6 +11,7 @@ const MenuComponent = () => {
   const [menuItems, setMenuItems] = useState([]);
   const [restaurantName, setRestaurantName] = useState([]);
   const [NumberOfItems, setNumberOfItems] = useState(0);
+  const [showCartItemNumber, setShowCartItemNumber] = useState(false)
   const { resId } = useParams();
 
   useEffect(() => {
@@ -18,13 +19,37 @@ const MenuComponent = () => {
     if (restaurant) {
       setRestaurantName(restaurant.RestaurantName);
       setMenuItems(restaurant.Menu || []);
+      const initializedMenuItems = restaurant.Menu.map((menuItem) => ({
+        ...menuItem,
+        quantity: NumberOfItems,
+      }));
+      setMenuItems(initializedMenuItems);
     } else {
       console.log("Not getting Menu");
     }
   }, [resId]);
 
-  const handleAddItems = () => {
-    setNumberOfItems(NumberOfItems + 1);
+  useEffect(() => {
+    const TotalItems = menuItems.reduce((acc, item) => acc + item.quantity, 0)
+    setNumberOfItems(TotalItems)
+    setShowCartItemNumber(true)
+  },[menuItems])
+
+  const handleAddItems = (AdditemId) => {
+    console.log(NumberOfItems)
+    setMenuItems((prevMenuItems) => 
+    prevMenuItems.map((item) => AdditemId === item.Menu_id && item.quantity + 1 ? {...item, quantity: item.quantity + 1} : item
+    ))
+  }
+
+  const handleremoveItems = (itemId) => {
+    setMenuItems((prevMenuItems) =>
+      prevMenuItems.map((item) =>
+        item.Menu_id === itemId && item.quantity > 0
+          ? { ...item, quantity: item.quantity - 1 }
+          : item
+      )
+    );
   };
 
   return (
@@ -51,20 +76,20 @@ const MenuComponent = () => {
             <p>{item.description}</p>
             <div className="menu-card-price">
               <p>Price : {item.Price}</p>
-              {NumberOfItems === 0 ? (
-                <button className="btn" onClick={handleAddItems}>
+              {item.quantity === 0 ? (
+                <button className="btn" onClick={() => handleAddItems(item.Menu_id)}>
                   Add
                 </button>
               ) : (
                 <div className="btn">
                   <RemoveIcon
                     className="minus-btn"
-                    onClick={() => setNumberOfItems(NumberOfItems - 1)}
+                    onClick={() => handleremoveItems(item.Menu_id)}
                   />
-                  <div className="ItemsNumber">{NumberOfItems}</div>
+                  <div className="ItemsNumber">{item.quantity}</div>
                   <AddIcon
                     className="add-btn"
-                    onClick={() => setNumberOfItems(NumberOfItems + 1)}
+                    onClick={() => handleAddItems(item.Menu_id)}
                   />
                 </div>
               )}
@@ -72,6 +97,7 @@ const MenuComponent = () => {
           </div>
         </div>
       ))}
+      {NumberOfItems === 0  ? !showCartItemNumber : <p className="cart-items">{NumberOfItems}</p>}
     </div>
   );
 };
