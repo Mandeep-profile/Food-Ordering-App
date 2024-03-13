@@ -2,8 +2,10 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 70px;
   padding-bottom: 3rem;
+  width: 80%;
+  margin: 0 auto;
   .res-card-div {
     width: 360px;
     height: 400px;
@@ -31,17 +33,17 @@
       .top-div {
         width: 96%;
         height: 55px;
-        // font-size: 16px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         color: #424242;
+        font-family: "Poppins", sans-serif;
 
         .rating-div {
           display: flex;
 
-          h3 {
+          h3{
             font-size: 15px;
             text-transform: capitalize;
           }
@@ -76,6 +78,7 @@
           font-size: 14px;
           font-weight: 500;
           color: #616161;
+          font-family: "Noto Sans", sans-serif;
         }
 
         .price-div > p {
@@ -83,17 +86,19 @@
           width: 90px;
           font-weight: 500;
           color: #616161;
+          font-family: "Noto Sans", sans-serif;
         }
       }
       .place-div {
         width: 98%;
         p {
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 700;
           color: #2596be;
           display: flex;
           align-items: center;
           gap: 5px;
+          font-family: "Poppins", sans-serif;
         }
       }
     }

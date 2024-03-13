@@ -16,8 +16,8 @@ const App = () => {
           gap: "50px",
         }}
       >
-        <Outlet />
       </div>
+        <Outlet />
     </div>
   );
 };

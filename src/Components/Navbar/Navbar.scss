@@ -1,7 +1,8 @@
 .Nav-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
   .Nav-logo {
     img {
       width: 100px;
@@ -11,18 +12,22 @@
   }
   .Nav-items {
     display: flex;
-    ul{
-        display: flex;
-    li{
+    ul {
+      display: flex;
+      li {
         color: black;
         font-size: 18px;
         margin-right: 50px;
         list-style: none;
         cursor: pointer;
-    }
-    .link{
-      text-decoration: none;
-    }
+      }
+
+      .link {
+        text-decoration: none;
+      }
+      .link:focus{
+        font-weight: 700;
+      }
     }
   }
 }
