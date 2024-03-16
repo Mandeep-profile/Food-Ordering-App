@@ -73,13 +73,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        cursor: pointer;
         .minus-btn{
             width: 30px;
             background-color: #2596be;
             height: 40px;
             color: #fff;
             border-radius: 10px 0px 0px 10px;
+            cursor: pointer;
         }
         .add-btn{
             width: 30px;
@@ -87,6 +87,7 @@
             height: 40px;
             color: #fff;
             border-radius: 0px 10px 10px 0px;
+            cursor: pointer;
         }
         .ItemsNumber{
             width: 40px;
@@ -98,7 +99,18 @@
   .cart-items{
     position: relative;
     bottom: 81rem;
-    left: 44.5rem;
+    left: 44.75rem;
+    color: #2596be;
+    font-size: 12px;
     font-weight: 700;
+    width: 25px;
+    height: 25px;
+    background-color: #2596be;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
   }
 }

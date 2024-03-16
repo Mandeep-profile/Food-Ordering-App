@@ -19,9 +19,11 @@ const Navbar = () => {
             <li>About</li>
           </Link>
           <li>Contact</li>
-          <li>
-            <ShoppingCartIcon />
-          </li>
+          <Link to="cart">
+            <li>
+              <ShoppingCartIcon />
+            </li>
+          </Link>
         </ul>
       </div>
     </div>
